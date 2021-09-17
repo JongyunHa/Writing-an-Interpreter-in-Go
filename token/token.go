@@ -11,15 +11,15 @@ const (
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 
-	// 식별자 + 리터럴
+	// IDENT 식별자 + 리터럴
 	IDENT = "IDENT" // add, foobar, x, y ...
 	INT   = "INT"   //. 123434566
 
-	// 연산자
+	// ASSIGN 연산자
 	ASSIGN = "="
 	PLUS   = "+"
 
-	// 구분자
+	// COMMA 구분자
 	COMMA     = ","
 	SEMICOLON = ";"
 
@@ -28,7 +28,7 @@ const (
 	LBRACE = "{"
 	RBRACE = "}"
 
-	// 예약어
+	// FUNCTION 예약어
 	FUNCTION = "FUNCTION"
 	LET      = "LET"
 )
